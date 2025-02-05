@@ -1,0 +1,30 @@
+body{
+    background-color:tan;
+   
+}
+p, ol, ul{
+    background-color:blueviolet;
+    margin:2rem;
+    padding:2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color:darkmagenta;
+    font-size:2rem;
+    font-weight: 900;
+    text-align: center;
+}
+h2,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+    margin:2rem;
+    padding:2rem;
+}
+h1{
+    color:purple;
+    font-family: 'Courier New', Courier, monospace;
+}
