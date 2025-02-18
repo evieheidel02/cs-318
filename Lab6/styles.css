@@ -1,0 +1,16 @@
+body{
+    background-image: url(images/flower.jpg);
+    background-position:top;
+    background-repeat:repeat;
+    background-size: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: aqua;
+}
+button{
+    background-color: white;
+}
+p{
+    background-color: white;
+}
