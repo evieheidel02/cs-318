@@ -60,7 +60,7 @@ section{
 article{
     padding: 1rem;
 }
-section>span{
+section span{
     position: absolute;
     top: 15rem;
     font-size: 2rem;
@@ -78,7 +78,7 @@ article{
 article.show{
     display: block;
 }
-section>span{
+section span{
     transform: rotate(180deg);
 }
 span.rotate{
@@ -108,7 +108,7 @@ section>h2{
         font-size: 3rem;
         background-position: center;
     }
-    section>span{
+    section span{
         font-size: 4rem;
         top: 26rem;
         left: calc(50% - 22px);
