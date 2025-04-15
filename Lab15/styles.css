@@ -1,0 +1,21 @@
+body{
+    font-weight: 300;
+    margin: 1rem;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: .25 solid #9a82e8;
+}
+header img{
+    width: 5rem;
+    display: block;
+}
