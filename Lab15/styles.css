@@ -1,4 +1,5 @@
 body{
+    font-family:'Courier New', Courier, monospace;
     font-weight: 300;
     margin: 1rem;
 }
@@ -19,3 +20,88 @@ header img{
     width: 5rem;
     display: block;
 }
+nav > a {
+    color: #9a82e8;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    margin: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav > a:hover {
+    color: #3b325a;
+    border-bottom-color: #3b325a;
+  }
+
+  section {
+    padding: 1rem 2rem;
+  }
+  
+  .purple {
+    background-color: #9a82e8;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #9a82e8;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  .social {
+    flex-basis: 100%;
+  }
+  
+  .social img {
+    width: 4rem;
+    margin: 0.25rem;
+  }
+  
+  section.headline {
+    background-image: url('path-to-image.jpg'); /* Update with actual image path */
+    background-size: cover;
+    background-color: rgb(23, 0, 65);
+    padding: 5rem 2rem;
+    color: #fff;
+  }
+  .headline h2 {
+    font-size: 6rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  }
+  .headline p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    max-width: calc(100% - 2rem);
+    width: 20rem;
+  }
+  .button {
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    background-color: #fff;
+    color: #3b325a;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    border: none;
+  }
+  
+  .button:hover {
+    box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  form .button {
+    background-color: #9a82e8;
+    color: #fff;
+  }
